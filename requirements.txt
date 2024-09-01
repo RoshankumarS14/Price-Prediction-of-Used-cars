@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+seaborn
+xgboost
+Flask
+flask-cors
