@@ -6,9 +6,11 @@ from xgboost import XGBRegressor
 import warnings
 from datetime import datetime
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 warnings.filterwarnings("ignore")
 
 app = Flask(__name__)
+CORS(app)
 
 df=pd.read_csv("vehicle_details_new.csv")
 
