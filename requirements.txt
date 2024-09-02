@@ -2,6 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
+scikit-learn
 xgboost
 Flask
 flask-cors
